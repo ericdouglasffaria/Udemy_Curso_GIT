@@ -1,6 +1,6 @@
 # CURSO DE GIT / VERSIONAMENTO
 
-## COMANDOS.
+### COMANDOS.
 * `gitignore` : Um arquivo para ignorar arquivos e pastas que voce nao quer enviar para repositorio remoto.
 * `git --version`
 * `'Q'` = Tecla que sai do Terminal Git.
@@ -27,7 +27,7 @@
 * `LINK GIT DESCKTOP :`
     https://desktop.github.com/
 
-### GIT STATUS - TIPOS DE ESTADO DO GIT.
+# GIT STATUS - TIPOS DE ESTADO DO GIT.
 
 ### `UNTRACKED`
 * Um arquivo novo no projeto que ainda não foi adicionado ao controle de versão do Git.
@@ -54,9 +54,7 @@
 
 * `git remote -v` : Lista os repositórios remotos configurados, mostrando as URLs associadas a eles.
 
-* `git remote rename <origin> <destination>` : Utilizado para renomear o repositorio remoto.
-
-* `git remote rm <destination>` : Utilizado para remover um repositorio remoto.
+* `git remote rm <destination>` : A remoção do URL remoto do repositório apenas desvincula os repositórios locais e remotos. Isso não exclui o repositório remoto.
 
 ## 2º BUSCANDO UM REPOSITORIO ONLINE - CLONANDO
 * `git clone <URL do seu repositorio online>` :
